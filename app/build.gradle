@@ -25,14 +25,6 @@ android {
     }
 }
 
-// INI TAMBAHANNYA (Biar nggak error ikon)
-androidComponents {
-    onVariants(selector().all()) { variant ->
-        variant.resValues.put(variant.makeResValue(androidx.core.internal.ResValue("drawable", "ic_launcher", "@android:drawable/sym_def_app_icon")).id)
-        variant.resValues.put(variant.makeResValue(androidx.core.internal.ResValue("drawable", "ic_launcher_round", "@android:drawable/sym_def_app_icon")).id)
-    }
-}
-
 dependencies {
     implementation 'androidx.appcompat:appcompat:1.6.1'
     implementation 'com.google.android.material:material:1.11.0'
