@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.anwarlutfi.tts2'
+    namespace 'com.pla.tts'
     compileSdk 34
 
     defaultConfig {
-        applicationId "com.anwarlutfi.tts2"
+        applicationId "com.pla.tts"
         minSdk 24
         targetSdk 34
         versionCode 1
